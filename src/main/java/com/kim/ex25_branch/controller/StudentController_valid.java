@@ -66,7 +66,6 @@ public class StudentController_valid {
 		return "student/form_validtest";
 	}
 
-//	수정처리:수정처리가 되면 안되는뎅...ㅜㅜㅜ
 	@PostMapping("/{id}")
 	public String update(@PathVariable Long id, @Valid @ModelAttribute Student student, BindingResult bindingResult) {
 		if (bindingResult.hasErrors()) {
