@@ -15,8 +15,4 @@ public interface StudentMapper {
 	public void deleteStudent(Student student);
 	public void deleteStudentById(Long id);
 	
-//    Student findById(Long id);
-//    void insert(Student student);
-//    void update(Student student);
-//    void delete(Long id);
 }

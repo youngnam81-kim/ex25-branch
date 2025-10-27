@@ -31,7 +31,7 @@ public class DatabaseConnectionTester implements CommandLineRunner {
             System.out.println("데이터베이스 제품명: " + metaData.getDatabaseProductName());
             System.out.println("데이터베이스 제품 버전: " + metaData.getDatabaseProductVersion());
             System.out.println("URL: " + metaData.getURL());
-            System.out.println("사용자명: " + metaData.getUserName());
+            System.out.println("사용자명: " + metaData.getUserName()); //
             
             // 간단한 쿼리 실행 테스트
             try {
