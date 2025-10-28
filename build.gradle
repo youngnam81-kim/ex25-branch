@@ -44,6 +44,7 @@ dependencies {
 	implementation 'com.oracle.database.jdbc:ucp'
 	implementation 'com.oracle.database.xml:xdb'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	implementation 'org.springframework.boot:spring-boot-starter-aop'
 }
 
 tasks.named('test') {

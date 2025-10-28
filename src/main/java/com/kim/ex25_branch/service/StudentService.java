@@ -8,6 +8,9 @@ import org.springframework.transaction.annotation.Transactional;
 import com.kim.ex25_branch.domain.Student;
 import com.kim.ex25_branch.mapper.StudentMapper;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 @Service
 public class StudentService {
 	
