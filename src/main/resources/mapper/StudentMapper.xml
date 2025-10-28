@@ -3,7 +3,7 @@
 <mapper namespace="com.kim.ex25_branch.mapper.StudentMapper">
 
     <select id="selectAllStudents" resultType="Student">
-        SELECT id,name,email,age,created_at,updated_at FROM student
+        SELECT id,name,email,age,created_at,updated_at, FROM student
     </select>
     
     <select id="selectFindStudentById" resultType="Student" parameterType="Long">
